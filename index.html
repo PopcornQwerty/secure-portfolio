@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>My PortFolio</title>
+  <style>
+    /* New Icon Styling */
+    .icon-wrapper {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 100px;
+      height: 100px;
+      background-color: #f0f4f8;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+      margin-bottom: 20px;
+      border: 2px solid transparent;
+    }
+
+    .service-item:hover .icon-wrapper {
+      transform: translateY(-10px);
+      background-color: #ffffff;
+      border-color: crimson; /* Matches your portfolio accent color */
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .icon-wrapper img {
+      width: 70px;
+      height: 70px;
+      object-fit: contain;
+    }
+  </style>
+</head>
+
+<body>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>Welcome</span> to <span> my </span>PortFolio</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#services" data-after="Service">Services</a></li>
+            <li><a href="#projects" data-after="Projects">Projects</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+            <li><a href="#contact" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>My Name is <span></span></h1>
+        <h1>Miles Ulam<span></span></h1>
+        <a href="#projects" type="button" class="cta">Portfolio</a>
+      </div>
+    </div>
+  </section>
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Serv<span>i</span>ces</h1>
+        <p>As a dedicated IT student specializing in cybersecurity, I provide services focused on hardening digital environments and protecting data integrity. I leverage my technical background in system administration and Python to identify vulnerabilities and implement robust security measures that safeguard users against evolving cyber threats</p>
+      </div>
+      <div class="service-bottom">
+        
+        <div class="service-item">
+          <div class="icon-wrapper">
+            <img src="https://img.icons8.com/bubbles/100/000000/monitor.png" alt="Web Design" />
+          </div>
+          <h2>Web Design</h2>
+          <p>Crafting visually stunning and user-friendly websites tailored to your needs. From responsive layouts to captivating aesthetics, I ensure your online presence stands out.</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon-wrapper">
+            <img src="https://img.icons8.com/bubbles/100/000000/shield.png" alt="Cybersecurity" />
+          </div>
+          <h2>Cybersecurity Solutions</h2>
+          <p>Comprehensive security strategies to protect your network and data. Services include firewall configuration, intrusion detection systems, and threat analysis.</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon-wrapper">
+            <img src="https://img.icons8.com/bubbles/100/000000/connected-people.png" alt="Networking" />
+          </div>
+          <h2>Networking Consultancy</h2>
+          <p>Expert advice on designing, deploying, and optimizing networks. From peer-to-peer setups to complex client-server architectures, I bring your network to life</p>
+        </div>
+
+        <div class="service-item">
+          <div class="icon-wrapper">
+            <img src="https://img.icons8.com/bubbles/100/000000/iphone-x.png" alt="App Development" />
+          </div>
+          <h2>Mobile App Development</h2>
+          <p>Bring your ideas to life with a fully customized mobile app tailored to your needs. Whether it's a startup MVP or a business app, I'll handle everything from UI design to backend integration</p>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  <section id="projects">
+  <div class="projects container">
+    <div class="projects-header">
+      <h1 class="section-title">Recent <span>Projects</span></h1>
+    </div>
+    <div class="all-projects">
+
+      <a href="https://drive.google.com/drive/folders/145D7lKDXsvBQt78ILzHzGob0Q-rcpJoR?usp=sharing" class="project-link" target="_blank">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 1</h1>
+            <h2>SMDC-Gallery</h2>
+            <p>SMDC could stand for different things based on its context. For example, it might refer to a real estate company, a government or military entity, or even something entirely different.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/SMDC.jpeg" alt="Hotel Login Project">
+          </div>
+        </div>
+      </a>
+
+      <a href="https://drive.google.com/drive/folders/11fFrR-MVomd0Ts5v6eJ1te1_plIxSQKY" class="project-link" target="_blank">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 2</h1>
+            <h2>P.O.S System For Samgyup House</h2>
+            <p>Samgyup POS is a specialized point-of-sale system designed for Korean BBQ and Samgyupsal restaurants. It streamlines order-taking, table management, and billing, ensuring fast and efficient service.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-proj 2.jpg" alt="POS System">
+          </div>
+        </div>
+      </a>
+
+      <a href="https://drive.google.com/drive/folders/1jYGmDxXerfjPNJd_8r4DQbz1zvOyUHY6?usp=sharing" class="project-link" target="_blank">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Student Login Register </h2>
+            <p>The Student Login and Register system simplifies access for students to educational platforms and resources. It allows students to create accounts, log in securely, and manage their profiles</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/register.jpg" alt="Data Dashboard">
+          </div>
+        </div>
+      </a>
+
+      <a href="https://drive.google.com/drive/folders/12yYBUPHAalycZ-Px25FBkymOxNFKEHag?usp=sharing" class="project-link" target="_blank">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4</h1>
+            <h2>FitQuest Fitness Gamification App</h2>
+            <p>FitQuest is a mobile app that gamifies fitness and daily movement. By setting personal goals and earning achievements, users stay motivated through progress tracking and rewards.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-5.jpg" alt="FitQuest App">
+          </div>
+        </div>
+      </a>
+
+      <a href="https://drive.google.com/drive/folders/11so1L0YWw8z3L3dGgb2aBIZE2C6TQJKR?usp=sharing" class="project-link" target="_blank">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 5</h1>
+            <h2>ShopEase E-commerce Web Application</h2>
+            <p>ShopEase is a modern, responsive e-commerce web application designed to provide a seamless online shopping experience.</p>
+          </div>
+          <div class="project-img">
+            <img src="./img/img-6.jpg" alt="ShopEase E-commerce">
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+<section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img">
+          <img src="./img/Me.png" alt="img">
+        </div>
+      </div>
+      <div class="col-right">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Aspiring Cybersecurity Professional</h2>
+        <p>I'm an aspiring cybersecurity professional passionate about ethical hacking, network defense, and incident response. I enjoy breaking systems to learn how to secure them and staying ahead of emerging threats. </p>
+        <a href="ULAM-RESUME.pdf" download="Resume.pdf" class="cta">Download Resume</a>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+  <div class="contact container">
+    <div class="contact-header">
+      <h1 class="section-title">Secure <span>Contact</span></h1>
+      <p style="text-align: center;">
+  Available for technical consultations and security collaborations.
+</p>
+    </div>
+    <div class="contact-items">
+      <div class="contact-item">
+        <div class="contact-info">
+          <h1>Direct Line</h1>
+          <h2><a href="tel:09622732343">09622732343</a></h2>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-info">
+          <h1>Secure Email</h1>
+          <h2><a href="mailto:miles.ulam@cvsu.edu.ph">miles.ulam@cvsu.edu.ph</a></h2>
+        </div>
+      </div>
+      <div class="contact-item">
+  <div class="contact-info">
+    <h1>Location</h1>
+    <h2><a href="https://maps.google.com/?cid=13869177897848904541&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQ" target="_blank">General Trias, Cavite</a></h2>
+  </div>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <footer id="footer">
+  <div class="footer container">
+    <div class="brand">
+      <h1><span>Welcome</span> To <span> my </span> PortFolio </h1>
+    </div>
+    <h2>Your Complete Tech Solution</h2>
+    <p>© 2026 | Cybersecurity Portfolio |</p>
+  </div>
+</footer>
+<script src="./app.js"></script>
+</body>
+</html>
